@@ -14,7 +14,6 @@
     }
   },
   "require": {
-    "ralfhortt/service-contracts": "^1",
-    "php": ">=7.4"
+    "ralfhortt/service-contracts": "^1"
   }
 }
