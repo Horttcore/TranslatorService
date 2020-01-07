@@ -28,6 +28,11 @@ use RalfHortt\TranslatorService\Translator;
 
 ## Changelog
 
+
+### v1.0.1 - 2019-12-3
+
+- Cleanup
+
 ### v1.0.0 - 2019-12-3
 
 - Initial release
