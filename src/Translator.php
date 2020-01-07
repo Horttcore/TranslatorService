@@ -3,19 +3,25 @@ namespace RalfHortt\TranslatorService;
 
 use RalfHortt\ServiceContracts\ServiceContract;
 
-class Translator
+class Translator implements ServiceContract
 {
     protected string $textdomain;
-    protected $translationPath;
+    protected $absolutePath;
+
+    /**
+     * Construct
+     **/
+    public function __construct(string $textdomain, string $absolutePath)
+    {
+        $this->textdomain = $textdomain;
+        $this->absolutePath = $absolutePath;
+    }
 
     /**
      * Register in WordPress lifecycle
      **/
-    public function register(string $textdomain, string $translationPath): void
+    public function register(): void
     {
-        $this->textdomain = $textdomain;
-        $this->translationPath = $translationPath;
-
         $this->loadTranslation();
     }
 
