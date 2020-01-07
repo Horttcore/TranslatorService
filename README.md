@@ -1,5 +1,9 @@
 # Translator Service
 
+## Installation
+
+`composer require ralfhortt/translator-service`
+
 ## Usage
 
 ### Service loader
