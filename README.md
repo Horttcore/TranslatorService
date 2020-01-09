@@ -10,6 +10,7 @@
 
 ```php
 <?php
+use RalfHortt\Plugin\PluginFactory;
 use RalfHortt\TranslatorService\Translator;
 
 PluginFactory::create()
