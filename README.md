@@ -1,11 +1,16 @@
 # Translator Service
 
+## Installation
+
+`composer require ralfhortt/translator-service`
+
 ## Usage
 
 ### Service loader
 
 ```php
 <?php
+use RalfHortt\Plugin\PluginFactory;
 use RalfHortt\TranslatorService\Translator;
 
 PluginFactory::create()
@@ -23,6 +28,11 @@ use RalfHortt\TranslatorService\Translator;
 ```
 
 ## Changelog
+
+
+### v1.0.1 - 2019-12-3
+
+- Cleanup
 
 ### v1.0.0 - 2019-12-3
 

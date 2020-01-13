@@ -11,10 +11,10 @@ class Translator implements ServiceContract
     /**
      * Construct
      **/
-    public function __construct(string $textdomain, string $absolutePath)
+    public function __construct(string $textdomain, string $translationPath)
     {
         $this->textdomain = $textdomain;
-        $this->absolutePath = $absolutePath;
+        $this->translationPath = $translationPath;
     }
 
     /**
