@@ -29,6 +29,9 @@ use RalfHortt\TranslatorService\Translator;
 
 ## Changelog
 
+### v1.0.2 - 2020-01-13
+
+- Bugfix: Wrong variable name
 
 ### v1.0.1 - 2019-12-3
 
