@@ -5,7 +5,7 @@ use RalfHortt\ServiceContracts\ServiceContract;
 
 class Translator implements ServiceContract
 {
-    protected string $textdomain;
+    protected $textdomain;
     protected $absolutePath;
 
     /**
@@ -46,6 +46,6 @@ class Translator implements ServiceContract
      **/
     public function getTranslationPath(): string
     {
-        return $this->translationPath;
+        return $this->absolutePath;
     }
 }
