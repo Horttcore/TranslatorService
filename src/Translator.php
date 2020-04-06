@@ -20,7 +20,7 @@ class Translator implements ServiceContract
     /**
      * Register in WordPress lifecycle
      **/
-    public function register(): void
+    public function register()
     {
         $this->loadTranslation();
     }
